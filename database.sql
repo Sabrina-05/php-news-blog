@@ -35,6 +35,7 @@ CREATE TABLE news (
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
+-- ==================== Ma'lumotlar ====================
 INSERT INTO users (name, username, password, role)
 VALUES ('Iqbolshoh Ilhomjonov', 'iqbolshoh', '$2y$10$gIKUrsLRB.U7ee9Fv9nib.di2NgMYvAeqqWGoB5aFXpHoxIv/igkW', 'admin');
 
